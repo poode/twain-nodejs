@@ -1,0 +1,40 @@
+{
+  "name": "twain-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/twainh.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha -gc --reporter mocha-junit-reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poode/twain-nodejs.git"
+  },
+  "author": "Abdulazeem Mohammed <eng.abdul.azeem@gmail.com>",
+  "keywords": [
+    "twain",
+    "struct",
+    "ref",
+    "c",
+    "c++",
+    "ffi"
+  ],
+  "bugs": {
+    "url": "https://github.com/poode/twain-nodejs/issues"
+  },
+  "homepage": "https://github.com/poode/twain-nodejs#readme",
+  "license": "MIT",
+  "dependencies": {
+    "ffi-napi": "^4.0.1",
+    "ref-array-napi": "^1.2.1",
+    "ref-napi": "^3.0.1",
+    "ref-struct-napi": "^1.1.1",
+    "ref-union-napi": "^1.0.2",
+    "nan": "^2.12.1"
+  },
+  "devDependencies": {
+    "bindings": "^1.4.0",
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.18.0"
+  }
+}
